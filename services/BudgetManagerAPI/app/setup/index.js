@@ -5,4 +5,4 @@ const models = {
     User : mongoose.model('User')
 };
 
-models.exports = models;
+module.exports = models;

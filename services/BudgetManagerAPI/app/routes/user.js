@@ -1,6 +1,6 @@
-const models = require('@BudgetManager/app/setup'),
+const passport = require('passport'),
     config = require('@config'),
-    passport = require('passport');
+    models = require('@BudgetManager/app/setup');
 
 module.exports = (app)=>{
     const api = app.BudgetManagerAPI.app.api.user;

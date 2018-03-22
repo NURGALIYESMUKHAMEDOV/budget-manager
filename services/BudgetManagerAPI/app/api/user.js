@@ -18,6 +18,7 @@ api.signup = (User)=>(req, res)=>{
 };
 
 api.setup = (User)=>(req, res)=>{
+
     const admin = new User({
         username:'admin',
         password:'admin',

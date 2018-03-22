@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "firstbm",
   "main": "index.js",
-  "_moduleAliases":{
-    "@root":".",
-    "@BudgetManager":"./services/BudgetManagerAPI",
-    "@BudgetManagerModels":"./services/BudgetManagerAPI/app/models",
-    "@BudgetManagerAPI":"./services/BudgetManagerAPI/config/app.js",
-    "@config":"./services/BudgetManagerAPI/config/index.js"
+  "_moduleAliases": {
+    "@root": ".",
+    "@BudgetManager": "./services/BudgetManagerAPI",
+    "@BudgetManagerModels": "./services/BudgetManagerAPI/app/models",
+    "@BudgetManagerAPI": "./services/BudgetManagerAPI/config/app.js",
+    "@config": "./services/BudgetManagerAPI/config/index.js"
   },
   "dependencies": {
     "bcrypt": "^1.0.3",
